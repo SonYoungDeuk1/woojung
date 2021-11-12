@@ -65,17 +65,17 @@ const SeonggeoFactory = () => {
                     <MapNavBlock style={{border: 'none'}} >본사</MapNavBlock>
                 </Link>
                 <Link to="/seonggeo-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <SelectMapNavBlock>성거공장</SelectMapNavBlock>
+                    <SelectMapNavBlock>천안공장</SelectMapNavBlock>
                 </Link>
                 <Link to="/chungju-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <MapNavBlock>청주공장</MapNavBlock>
+                    <MapNavBlock>충주공장</MapNavBlock>
                 </Link>
             </MapNavBar>
                 <MapContainer>
                     <Map2 />
                     <InfoWrapper>
-                        <Info><b>주소 </b> (성거공장) 충남 천안시 서북구 천흥1길 17(성거읍)</Info>
-                        <Info><b>tel</b> 041-565-7010~3</Info>
+                        <Info><b>주소 </b> (천안공장) 충남 천안시 서북구 천흥1길 17(성거읍)</Info>
+                        <Info><b>tel</b> 041-522-7072</Info>
                     </InfoWrapper>
                 </MapContainer>
             <Footer/>

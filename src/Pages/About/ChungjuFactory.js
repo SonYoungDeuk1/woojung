@@ -65,10 +65,10 @@ const ChungjuFactory = () => {
                     <MapNavBlock style={{border: 'none'}} >본사</MapNavBlock>
                 </Link>
                 <Link to="/seonggeo-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <MapNavBlock>성거공장</MapNavBlock>
+                    <MapNavBlock>천안공장</MapNavBlock>
                 </Link>
                 <Link to="/chungju-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <SelectMapNavBlock>청주공장</SelectMapNavBlock>
+                    <SelectMapNavBlock>충주공장</SelectMapNavBlock>
                 </Link>
             </MapNavBar>
                 <MapContainer>

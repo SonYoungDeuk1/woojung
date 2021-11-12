@@ -65,17 +65,17 @@ const WayToCome = () => {
                     <SelectMapNavBlock style={{border: 'none'}} >본사</SelectMapNavBlock>
                 </Link>
                 <Link to="/seonggeo-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <MapNavBlock>성거공장</MapNavBlock>
+                    <MapNavBlock>천안공장</MapNavBlock>
                 </Link>
                 <Link to="/chungju-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <MapNavBlock>청주공장</MapNavBlock>
+                    <MapNavBlock>충주공장</MapNavBlock>
                 </Link>
             </MapNavBar>
                 <MapContainer>
                     <Map />
                     <InfoWrapper>
                         <Info><b>주소 </b> 충청남도 천안시 서북구 백석3로 130-14, 4층(백석동)</Info>
-                        <Info><b>tel</b> 041-565-7010~3</Info>
+                        <Info><b>tel</b> 041-522-7010~3</Info>
                     </InfoWrapper>
                 </MapContainer>
             <Footer/>
