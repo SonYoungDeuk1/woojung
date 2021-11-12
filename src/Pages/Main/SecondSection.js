@@ -107,9 +107,10 @@ const CardWrapper =  styled.div`
 `;
 
 const CardTitle = styled.div`
-    font-size: 1.7vw;
-    color: #fff;
-    margin-bottom: 2.5vw;
+    font-size: 1vw;
+    color: #000;
+    margin-bottom: 0.5vw;
+    margin-top: 9vw;
     font-weight: 600;
     @media screen and (max-width: 840px) {
         font-size: 8vw;
@@ -179,8 +180,8 @@ const CardTitleWrapper = styled.div`
 `;
 
 const CardSubtitle = styled.div`
-    font-size: 1vw;
-    color: #fff;
+    font-size: 0.8vw;
+    color: #000;
     width: 17vw;
     height: 7vw;
     @media screen and (max-width: 840px) {
