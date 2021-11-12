@@ -10,8 +10,8 @@ const FirstSection = () => {
         <>
         <Background>
         <ContentWrapper>
-                <FirstTitle>신뢰를 바탕으로 <br/>고객님의 안전을 책임지겠습니다.</FirstTitle>
-                <FirstSubTitle>최고 수준의 기술 인력으로 위험물 설계, 시공, 준공, 전반적인 종합컨설팅을 하고있습니다.</FirstSubTitle>
+                <FirstTitle>신뢰를 바탕으로 <br/>고객의 안전을 책임지겠습니다.</FirstTitle>
+                <FirstSubTitle>당사는 충청지역 최고 수준의 기술 및 인력으로 <br/> 위험물 설계와 시공, 준공을 바탕으로 전반적인 종합컨설팅을 시행 하고 있습니다.</FirstSubTitle>
             </ContentWrapper>
             <Video autoPlay loop controls={false} playsinline muted >
                 <source src={BackgroundVideo}/>
