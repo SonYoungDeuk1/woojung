@@ -27,11 +27,15 @@ const Corporation = () => {
                 </MainImgTitle>
             </MainImg>
             <NavBarWrapper open={open}>
-                    <Link to="/inspection" style={{textDecoration: 'none', color: "#000"}}>
-                        <NavBlock>소방시설안전관리/점검</NavBlock>
-                    </Link>
                     <Link to="/license" style={{textDecoration: 'none', color: "#000"}}>
-                        <NavBlock style={{width: "17vw", maxWidth: "255px"}}>위험물 관리대행</NavBlock>
+                        <NavBlock style={{width: "17vw", maxWidth: "255px"}}>위험물 인허가/설계</NavBlock>
+                    </Link>    
+                    
+                    <Link to="/license" style={{textDecoration: 'none', color: "#000"}}>
+                        <NavBlock style={{width: "17vw", maxWidth: "255px"}}>위험물안전관리대행</NavBlock>
+                    </Link>
+                    <Link to="/inspection" style={{textDecoration: 'none', color: "#000"}}>
+                        <NavBlock>소방시설관리</NavBlock>
                     </Link>
                     <Link to="/corporation" style={{textDecoration: 'none', color: "#000"}}>
                         <SelectNavBlock onClick={onToggle}>소방 공사/위험물 공사<Arrow/></SelectNavBlock>
@@ -40,11 +44,15 @@ const Corporation = () => {
                         <NavBlock>전기자동차</NavBlock>
                     </Link>
                     <MobileNavBarWrapper open={open}>
-                        <Link to="/inspection" style={{textDecoration: 'none', color: "#000"}}>
-                            <MobileNavBlock onClick={onToggle}>소방시설안전관리/점검</MobileNavBlock>
-                        </Link>
                         <Link to="/license" style={{textDecoration: 'none', color: "#000"}}>
-                            <MobileNavBlock>위험물 관리대행</MobileNavBlock>
+                            <MobileNavBlock>위험물 인허가/설계</MobileNavBlock>
+                        </Link>
+                        
+                        <Link to="/license" style={{textDecoration: 'none', color: "#000"}}>
+                            <MobileNavBlock>위험물안전관리대행</MobileNavBlock>
+                        </Link>
+                        <Link to="/inspection" style={{ textDecoration: 'none', color: "#000" }}>
+                            <MobileNavBlock onClick={onToggle}>소방시설관리</MobileNavBlock>
                         </Link>
                         <Link to="/corporation" style={{textDecoration: 'none', color: "#000"}}>
                             <MobileSelectNavBlock>소방 공사/위험물 공사</MobileSelectNavBlock>
