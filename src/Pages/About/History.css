@@ -1,0 +1,121 @@
+
+
+  #timeline-content {
+    margin: 5vh 0 20vh 0;
+    text-align: center;
+  }
+  /* Timeline */
+  .timeline {
+    border-left: 1px solid #707070;
+    color: #000;
+    position: relative;
+    left: 50%;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 0 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 300;
+    max-width: 30%;
+    margin: 0;
+
+  }
+
+  .timeline h1 {
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-size: 1.4em;
+    margin: 0;
+
+  }
+  .timeline h2,
+  .timeline h3 {
+    font-weight: 400;
+    font-size: 1.4em;
+    margin: 0;
+
+  }
+
+  .timeline p {
+    margin: 5px 0;
+
+  }
+  .timeline .event {
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  .timeline .event:before,
+  .timeline .event:after {
+      margin: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  .timeline .event:before {
+    left: -220px;
+    color: #000;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 600;
+    font-size: 2em;
+    max-width: 100px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30px;
+    margin: 0;
+
+  }
+  .timeline .event:after {
+    background: #930E14;
+    left: -57px;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    content: "";
+    margin: 0;
+
+  }
+  
+  @media screen and (max-width: 780px) {
+    .timeline .event:before {
+        left: -120px;
+        color: #000;
+        content: attr(data-date);
+        text-align: right;
+        font-weight: 600;
+        font-size: 1.3em;
+        max-width: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 20px;
+    }
+      .timeline {
+        border-left: 1px solid #707070;
+        color: #000;
+        position: relative;
+        left: 30%;
+        line-height: 17px;
+        font-size: 16px;
+        padding: 0 30px;
+        list-style: none;
+        text-align: left;
+        font-weight: 300;
+        max-width: 50%;
+      }
+      .timeline .event:after {
+        background: #930E14;
+        left: -37px;
+        border-radius: 50%;
+        height: 13px;
+        width: 13px;
+        content: "";
+    
+      }
+}
