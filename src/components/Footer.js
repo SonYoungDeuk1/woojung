@@ -8,9 +8,9 @@ const Footer = () => {
             <FooterBlock>
             <Logo/>
             <InfoWrapper>
-                <Content>우정에이치엔씨(주) ㅣ 대표 : 장두희 ㅣ <Content>사업자등록번호 : 312-86-64352</Content></Content>
+                <Content>우정에이치앤씨(주) ㅣ 대표 : 장두희 ㅣ <Content>사업자등록번호 : 312-86-64352</Content></Content>
                 <Content>주소 : (본사) 충청남도 천안시 서북구 백석3로 130-14, 4층(백석동)</Content>
-                <Content><Address>(성거공장) 충남 천안시 서북구 천흥1길 17(성거읍)</Address></Content>
+                <Content><Address>(천안공장) 충남 천안시 서북구 천흥1길 17(성거읍)</Address></Content>
                 <Content><Address>(충주공장) 충북 충주시 산척면 동충주산업단지 E4-2 BL</Address></Content>
                 <Content>TEL : 041-565-7010~3 ㅣ 문의메일 : one119@one119.co.kr / one119@chol.com</Content>
                 <Content><Copyright>Copyright 2021 Woojung. All Rights Reserved. </Copyright></Content>

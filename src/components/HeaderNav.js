@@ -29,14 +29,17 @@ export default withRouter(({location: {pathname}}) => (
                     </Link>
                 </Navigator>
                 <Navigator>
-                    <Link to="/inspection" style={{textDecoration: 'none'}}>
-                        <NavContent current={pathname === "/inspection"} >소방시설 안전관리/점검</NavContent>
+                    <Link to="/license" style={{textDecoration: 'none'}}>
+                        <NavContent current={pathname === "/license"}>위험물 인허가/설계</NavContent>
                     </Link>
                     <Link to="/license" style={{textDecoration: 'none'}}>
-                        <NavContent current={pathname === "/license"}>위험물 관리대행</NavContent>
+                        <NavContent current={pathname === "/license"}>위험물안전관리대행</NavContent>
+                    </Link>
+                    <Link to="/inspection" style={{textDecoration: 'none'}}>
+                        <NavContent current={pathname === "/inspection"} >소방시설관리</NavContent>
                     </Link>
                     <Link to="/corporation" style={{textDecoration: 'none'}}>
-                        <NavContent current={pathname === "/corporation"}>소방/위험물 공사</NavContent>
+                        <NavContent current={pathname === "/corporation"}>소방/위험물공사</NavContent>
                     </Link>
                     <Link to="/automotive-parts" style={{textDecoration: 'none'}}>
                         <NavContent current={pathname === "/automotive-parts"}>전기자동차</NavContent>
