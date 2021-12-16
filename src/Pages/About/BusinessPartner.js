@@ -104,7 +104,7 @@ const BusinessPartner = () => {
                         <Block6/>
                     </RemarkWrapper>
                     <RemarkWrapper>
-                        <Remark>중소기업 확인서</Remark>
+                        <Remark>경영혁신형 중소기업 확인서</Remark>
                         <Block7/>
                     </RemarkWrapper>
                     <RemarkWrapper>
@@ -120,7 +120,7 @@ const BusinessPartner = () => {
                         <Block10/>
                     </RemarkWrapper>
                     <RemarkWrapper>
-                        <Remark>이노비즈확인서</Remark>
+                        <Remark>기술혁신형 중소기업 확인서</Remark>
                         <Block11/>
                     </RemarkWrapper>
                 </Blockwrapper>
