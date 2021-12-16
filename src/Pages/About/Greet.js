@@ -87,7 +87,10 @@ const Greet = () => {
                             <Date>2021. 01.<Space/><DateDescrip>경영혁신형 중소기업 인증(Main Biz)</DateDescrip></Date>
                             <Date>2021. 02.<Space/><DateDescrip>압전고무소자 관련 특허 등록(기술이전 - 호서대학교)</DateDescrip></Date>
                             <Date>2021. 03.<Space/><DateDescrip>사업재편계획 승인 기업 인증(산업통상자원부)</DateDescrip></Date>
-                            <Date>2021. 06.<Space/><DateDescrip>벤처기업 인증(혁신성장유형)</DateDescrip></Date>
+                            <Date>2021. 06.<Space /><DateDescrip>벤처기업 인증(혁신성장유형)</DateDescrip></Date>
+                            <Date>2021. 08.<Space /><DateDescrip>ISO 9001:2015 획득</DateDescrip></Date>
+                            <Date>2021. 10.<Space /><DateDescrip>IATF 16949:2016 획득</DateDescrip></Date>
+                            <Date>2021. 11.<Space/><DateDescrip>기술혁신형 중소기업 인증(Inno Biz)</DateDescrip></Date>
                         </Hello>
                     </ProfileWrapper>
                     <Profile/>

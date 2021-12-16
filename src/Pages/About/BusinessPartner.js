@@ -26,6 +26,9 @@ import LicenseImg5 from '../../assets/license5.png';
 import LicenseImg6 from '../../assets/license6.png';
 import LicenseImg7 from '../../assets/license7.png';
 import LicenseImg8 from '../../assets/license8.png';
+import LicenseImg9 from '../../assets/license9.png';
+import LicenseImg10 from '../../assets/license10.png';
+import LicenseImg11 from '../../assets/license11.png';
 
 const BusinessPartner = () => {
     const [open, setopen] = useState(false);
@@ -107,6 +110,18 @@ const BusinessPartner = () => {
                     <RemarkWrapper>
                         <Remark>벤처기업 확인서</Remark>
                         <Block8/>
+                    </RemarkWrapper>
+                    <RemarkWrapper>
+                        <Remark>ISO 9001 인증서</Remark>
+                        <Block9/>
+                    </RemarkWrapper>
+                    <RemarkWrapper>
+                        <Remark>IATF 16949 인증서</Remark>
+                        <Block10/>
+                    </RemarkWrapper>
+                    <RemarkWrapper>
+                        <Remark>이노비즈확인서</Remark>
+                        <Block11/>
                     </RemarkWrapper>
                 </Blockwrapper>
             </BarkWrapper>
@@ -195,6 +210,18 @@ const Block7= styled(Block)`
 
 const Block8= styled(Block)`
     background-image: url(${LicenseImg8});
+`;
+
+const Block9= styled(Block)`
+    background-image: url(${LicenseImg9});
+`;
+
+const Block10= styled(Block)`
+    background-image: url(${LicenseImg10});
+`;
+
+const Block11= styled(Block)`
+    background-image: url(${LicenseImg11});
 `;
 
 const Remark = styled.div`
