@@ -67,9 +67,6 @@ const SeonggeoFactory = () => {
                 <Link to="/seonggeo-factory" style={{textDecoration: 'none', color: "#000"}}>
                     <SelectMapNavBlock>천안공장</SelectMapNavBlock>
                 </Link>
-                <Link to="/chungju-factory" style={{textDecoration: 'none', color: "#000"}}>
-                    <MapNavBlock>충주공장</MapNavBlock>
-                </Link>
             </MapNavBar>
                 <MapContainer>
                     <Map2 />
@@ -149,8 +146,8 @@ const MapNavBar = styled.div`
 `;
 
 const MapNavBlock = styled.div`
-    width: calc(30vw - 1px);
-    max-width: 362px;
+    width: calc(50vw - 1px);
+    max-width: 544px;
     height: 70px;
     display: flex;
     justify-content: center;
