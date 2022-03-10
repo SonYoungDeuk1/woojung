@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import FooterLogoImg from '../assets/footerlogo.png'
+import FooterLogoImg from '../assets/woojung_logo_02.png'
 
 const Footer = () => {
     return (
         <FooterBcakgroundBlock>
             <FooterBlock>
-            <Logo/>
+                <Logo />
+                <a href="https://office.hiworks.com/one119.co.kr/" target="_blank">하이웍스</a>
             <InfoWrapper>
                 <Content>우정에이치앤씨(주) ㅣ 대표 : 장두희 ㅣ <Content>사업자등록번호 : 312-86-64352</Content></Content>
                 <Content>주소 : (본사) 충청남도 천안시 서북구 백석3로 130-14, 4층(백석동)</Content>
                 <Content><Address>(천안공장) 충남 천안시 서북구 천흥1길 17(성거읍)</Address></Content>
-                <Content><Address>(충주공장) 충북 충주시 산척면 동충주산업단지 E4-2 BL</Address></Content>
+                
                 <Content>TEL : 041-565-7010~3 ㅣ 문의메일 : one119@one119.co.kr / one119@chol.com</Content>
                 <Content><Copyright>Copyright 2021 Woojung. All Rights Reserved. </Copyright></Content>
             </InfoWrapper>
@@ -72,6 +73,12 @@ const Logo = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+`;
+
+const tempStyle = styled.div`
+    padding-top: 50px;
+    margin-left: -181px;
+    margin-right: 80px;
 `;
 
 const InfoWrapper = styled.div`

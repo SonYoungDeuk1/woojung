@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import {Link} from 'react-router-dom';
-import WoojungLogo from '../assets/woojunglogo.png'
+import WoojungLogo from '../assets/woojung_logo_01.png'
 import NavBar from './NavBar';
 import HamburgerButton from './HambuergerButton';
 
