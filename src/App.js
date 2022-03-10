@@ -12,7 +12,7 @@ import HazardousdDsign from './Pages/About/HazardousdDsign';
 import Vision from './Pages/About/Vision';
 import WayToCome from './Pages/About/WayToCome';
 import SeonggeoFactory from './Pages/About/SeonggeoFactory';
-import ChungjuFactory from './Pages/About/ChungjuFactory';
+// import ChungjuFactory from './Pages/About/ChungjuFactory';
 import OrganizeChart from './Pages/About/OrganizeChart';
 import License from './Pages/BusinessDomain/License';
 import Contact from './Pages/FacilityStatus/MailContact';
@@ -47,7 +47,7 @@ const App = () => {
         <Route path="/business-partner" component={BusinessPartner} />
         <Route path="/way-to-come" component={WayToCome} />
         <Route path="/seonggeo-factory" component={SeonggeoFactory}  />
-        <Route path="/chungju-factory" component={ChungjuFactory}  />
+        {/* <Route path="/chungju-factory" component={ChungjuFactory}  /> */}
         <Route path="/organize-chart" component={OrganizeChart}  />
         <Route path="/license" component={License}  />
         <Route path="/management-agency" component={ManagementAgency}  />
