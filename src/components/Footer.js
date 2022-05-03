@@ -1,13 +1,14 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import FooterLogoImg from '../assets/woojung_logo_02.png'
+import HiworksImg from '../assets/woojung_hiworks_img.png'
 
 const Footer = () => {
     return (
         <FooterBcakgroundBlock>
             <FooterBlock>
                 <Logo />
-                <a href="https://office.hiworks.com/one119.co.kr/" target="_blank">하이웍스</a>
+                <a href="https://office.hiworks.com/one119.co.kr/" target="_blank"><Hiworks /></a>
             <InfoWrapper>
                 <Content>우정에이치앤씨(주) ㅣ 대표 : 장두희 ㅣ <Content>사업자등록번호 : 312-86-64352</Content></Content>
                 <Content>주소 : (본사) 충청남도 천안시 서북구 백석3로 130-14, 4층(백석동)</Content>
@@ -73,6 +74,26 @@ const Logo = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+`;
+
+const Hiworks = styled.div`
+    width: 190px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: -240px;
+    margin-right: 5vw;
+    z-index:500;
+    background-image: url(${HiworksImg});
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+const a = styled.a`
+    display:none;
 `;
 
 const tempStyle = styled.div`
