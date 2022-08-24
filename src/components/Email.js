@@ -35,23 +35,24 @@ export default function Email() {
         <Blockwrapper>
         <InputWrapper>
             <Label>이름</Label>
+            <Input type="text" name="user-name" />
+        </InputWrapper>
+        <InputWrapper>
+            <Label>회사명</Label>
             <Input type="text" name="company-name" />
         </InputWrapper>
         <InputWrapper>
-            <Label>분류</Label>
+            <Label>직급</Label>
             <Input type="text" name="user-rank" />
         </InputWrapper>
-        <InputWrapper>
-            <Label>이메일</Label>
-            <Input type="text" name="user-name" />
-        </InputWrapper>
+        
         <InputWrapper>
             <Label>연락처</Label>
             <Input type="text" name="contact-number" />
         </InputWrapper>
         <InputWrapper>
-            <Label>제목</Label>
-            <EmailInput type="text" name="contact-number" />
+            <Label>이메일</Label>
+            <EmailInput type="text" name="user-name" />
         </InputWrapper>
         <InputWrapper>
             <Label>내용</Label>
